@@ -1,6 +1,5 @@
 # LocalDrop
 
-**[🇫🇷 Version française ci-dessous](#-version-française)**
 
 Peer-to-peer local file sharing over Wi-Fi — no cloud, no account, and nothing to install on the other device. Compatible with **Windows, macOS, and Linux**.
 
