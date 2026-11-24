@@ -1,26 +1,29 @@
 # LocalDrop
 
-Partage de fichiers d'appareil à appareil sur le même Wi-Fi, sans cloud, sans compte et sans rien installer sur l'appareil qui reçoit ou envoie. Compatible **Windows, macOS et Linux**.
+**[🇫🇷 Version française ci-dessous](#-version-française)**
 
-<img width="757" height="583" alt="localdrop le vrai" src="https://github.com/user-attachments/assets/8f0fd693-cc3c-4a2e-9e7f-3833635fd6e5" />
+Peer-to-peer local file sharing over Wi-Fi — no cloud, no account, and nothing to install on the other device. Compatible with **Windows, macOS, and Linux**.
+
+<img width="757" height="583" alt="localdrop le vrai" src="https://github.com/user-attachments/assets/e66c8648-1cc9-40ad-94c0-c666792cb9e2" />
 
 
-## Fonctionnalités
+## Features
 
-* **Envoi rapide :** sélectionne des fichiers ou des dossiers entiers (compressés automatiquement en `.zip`).
-* **Réception directe :** active la réception pour récupérer des fichiers envoyés depuis un téléphone ou un autre ordinateur directement dans ton dossier *Téléchargements*.
-* **Connexion par QR code :** ouvre l'interface web sur l'autre appareil en un scan, avec glisser-déposer.
-* **100 % local :** aucun fichier ne passe par Internet, tout reste sur ton Wi-Fi.
+* **Fast sending:** Select individual files or entire folders (automatically compressed into a `.zip` archive).
+* **Direct receiving:** Enable receiving to save files sent from a phone or another computer straight into your *Downloads* folder.
+* **QR code connection:** Open the web interface on the other device with a single scan, featuring drag-and-drop uploads.
+* **100% local & secure:** No files ever leave your local Wi-Fi network, and a unique session token is generated on every startup.
 
 ## Installation
 
-Rendez-vous dans l'onglet **[Releases](../../releases)** et téléchargez la version adaptée à votre système :
+Go to the **[Releases](../../releases)** page and download the build for your operating system:
 
-* **Windows :** Téléchargez `LocalDrop.exe` et double-cliquez dessus. *(L'application n'étant pas signée numériquement, Windows SmartScreen peut afficher un avertissement : cliquez sur **Informations complémentaires** puis **Exécuter quand même**).*
-* **macOS :** Téléchargez `LocalDrop-macos.zip`, décompressez-le, puis faites un **clic droit → Ouvrir** lors du premier lancement.
-* **Linux :** Téléchargez `LocalDrop`, rendez-le exécutable (`chmod +x LocalDrop`) puis lancez-le (`./LocalDrop`).
+* **Windows:** Download `LocalDrop.exe` and double-click it. *(Since the app is not digitally signed, Windows SmartScreen may show a warning: click **More info** → **Run anyway**).*
+* **macOS:** Download `LocalDrop-macos.zip`, unzip it, then **right-click → Open** on first launch.
+* **Linux:** Download `LocalDrop`, make it executable (`chmod +x LocalDrop`), and run it (`./LocalDrop`).
 
-*Alternative depuis le code source :*
+### Run from source
+
 ```bash
 pip install qrcode
 python3 localdrop_app.py
