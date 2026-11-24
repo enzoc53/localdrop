@@ -1,3 +1,4 @@
+<img width="757" height="583" alt="localdrop le vrai" src="https://github.com/user-attachments/assets/53a22e91-fa53-4bdd-acd1-f718ab1c563d" />
 # localdrop
 Partage de fichiers d'appareil à appareil sur le même Wi-Fi, sans cloud ni compte. Scanne un QR code, télécharge ou envoie des fichiers depuis ton navigateur. Windows, macOS et Linux.
 
